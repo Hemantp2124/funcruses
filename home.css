@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora+regular', 'Lora', sans-serif;
+}
+
+header {
+  background-color: rgb(0, 129, 138);
+}
+
+.logo {
+  color: white;
+  font-size: 45px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+
+}
+
+.nav {
+  list-style-type: none;
+  margin-left: 50px;
+
+
+
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px !important;
+  color: white !important;
+  position: relative;
+  top: 10px;
+  left: 200px;
+
+
+
+
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 2px;
+  width: 0;
+  left: 15px;
+  bottom: 10px;
+  transition: 0.4s;
+}
+
+.nav-link:hover:after {
+  width: 50px;
+}
+
+/* hero  page info section */
+
+.hero-page {
+
+  width: 100%;
+  height: 90vh;
+  background-image: url(hero\ page.png);
+  background-size: cover;
+  opacity: 120%;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.trip {
+  text-transform: capitalize;
+  font-weight: bolder;
+  color: white;
+  width: 250px;
+  height: 227px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  font-size: 50px;
+  flex-wrap: wrap;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+
+
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(2px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+
+.info2 p {
+  width: 450px;
+  color: white;
+  font-size: x-large;
+  position: relative;
+  left: 500px;
+  top: 130px;
+
+
+}
+
+
+
+
+
+/* images section */
+
+
+
+
+/* second page  */
+.second{
+  margin-top: 45px;
+}
+
+.img1 {
+  position: relative;
+  top: 10px;
+}
+
+.img2 {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 860px;
+  height: 463px;
+}
+
+.img3 {
+  margin-top: 20px;
+  position: relative;
+  left: 465px;
+
+}
+
+.img4 {
+  width: 550px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 470px;
+}
+
+.welcome {
+  width: 450px;
+  position: relative;
+  bottom: 400px;
+}
+
+.img5 {
+  position: relative;
+  top: -150px;
+  left: 20px;
+  height: 600px;
+  z-index: 20;
+}
+
+.img6 {
+  margin-top: -600px;
+  margin-left: 230px;
+  height: 600px;
+  z-index: -40;
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  width: 300px;
+  margin-left: 350px;
+  position: relative;
+  bottom: 560px;
+  z-index: 40;
+
+
+}
+
+.info {
+  color: white;
+  width: 400px;
+  margin-top: -450px;
+  position: relative;
+  left: 550px;
+  bottom: 180px;
+  z-index: 40;
+  opacity: 75%;
+}
+
+.btn1 {
+  border: none;
+  width: 100px;
+  border-radius: 2px;
+  background-color: rgb(0, 129, 138);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  position: relative;
+  left: 85px;
+  position: relative;
+  bottom: 150px;
+  left: 550px;
+}
+
+.form {
+  background-color: rgb(236, 248, 249);
+  height: 400px;
+  margin-bottom: 45px;
+
+
+}
+
+.form h3 {
+  color: black;
+
+}
+
+.btn2 {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 129, 138);
+  border-radius: 4px;
+  position: relative;
+}
+
+
+/* contact and form fill */
+.sec1 {
+  position: relative;
+  top: 55px;
+  left: 125px;
+
+}
+
+.sec2 {
+  position: relative;
+  left: 700px;
+  bottom: 150px;
+
+}
+
+.sec2 h3{
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin-top: 15px;
+  opacity: 45%;
+}
+
+
+
+
+/* our bots and yacht in goa  */
+.cards {
+  width: 25%;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(209, 238, 240);
+}
+
+.image img {
+  width: 100%;
+
+}
+
+.title h2 {
+  font-size: large;
+  margin: 10px;
+}
+
+.des p {
+  margin: 10px;
+  width: 50%;
+}
+
+.btn3 button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  padding: 5px;
+  background-color: rgb(0, 129, 138);
+  margin:30px;
+
+}
+
+/* footer */
+.part1 {
+  color: white;
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  position: relative;
+  left: 10px;
+  bottom: -10px;
+  color: white;
+}
+
+.info3 {
+  width: 250px;
+}
+
+#Reserved {
+  position: relative;
+  top: 100px;
+}
+
+.icon i {
+  position: relative;
+  top: 30px;
+  right: 55px;
+  font-size: x-large;
+}

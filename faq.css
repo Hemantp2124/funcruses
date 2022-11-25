@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora+regular', 'Lora', sans-serif;
+}
+
+/* navbar header section */
+
+header {
+    background-color: rgb(0, 129, 138);
+  
+  
+}
+
+.logo {
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin-left: 50px;
+    
+
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px !important;
+    color: white !important;
+    position: relative;
+    top: 10px;
+    left: 200px;
+
+
+
+
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 0;
+    left: 15px;
+    bottom: 10px;
+    transition: 0.4s;
+}
+
+.nav-link:hover:after {
+    width: 50px;
+}
+
+/* main section */
+.FAQ{
+    margin-left: 400px;
+    margin-top: 45px;
+}
+.FAQ h3{
+    font-size: x-large;
+    
+}
+.FAQ input{
+    width: 500px;
+    opacity: 75%;
+}
+
+.FAQ h4{
+ border-bottom: 1px solid grey;
+ width: 500px;
+ padding: 15px;
+ opacity: 90%;
+ font-size: large;
+ margin-bottom: 25px;
+}
+
+
+.help{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding: 45px;
+}
+.help p{
+width: 700px;
+margin-left: 300px;
+
+}
+.help h3{
+    font-size: small;
+    color: blue;
+}
+/* footer */
+
+
+.fa-sharp{
+    border: 1px solid;
+    background-color: rgb(0, 129, 138);
+    color: white;
+    padding: 5px;
+}
+.fa-plus{
+   float: right;
+   opacity: 56%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
